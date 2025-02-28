@@ -1,4 +1,4 @@
-Background {#background .unnumbered}
+Background
 ==========
 
 In this assignment, you are required to perform a Life Cycle Cost (LCC)
@@ -7,9 +7,9 @@ conveyor, and a screen adapted for the desired grain size. You are
 responsible for this production facility and should investigate how
 various factors affect your LCC.
 
-Tutorials for MATLAB and Python are available, visit: [MaintenanceLTU
-GitHub
-Repository](https://github.com/MaintenanceLTU/D0002B/tree/main/Maintenance%20Cost%20and%20LCC).
+Tutorials for MATLAB and Python are available
+- [MATLAB Tutorial](./MATLAB/Maintenance_Cost_Analysis_MATLAB.md)  
+- [Python Tutorial](./Python/Maintenance_Cost_Analysis_Python.md) 
 Include your code ass appendix to your report.
 
 Availability and LCC calculations
@@ -89,26 +89,22 @@ Calculate the life cycle costs of the asset.
 
     -   Investment reduces by **50% per year**.
 
-(Net Present Value (NPV) Calculation
-------------------------------------
+## Calculate Present Values and NPV  
 
-Calculate present values of annual costs (operation, maintenance, and
-income) and single amounts (residual value). Then compute NPV and report
-using the table format in Table [1](#NPVtable){reference-type="ref"
-reference="NPVtable"}.
+Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table 1**.
 
-::: {#NPVtable}
-  **Item**          **Present Value**   **Annual Amounts**   **Amount in Year X**
-  ---------------- ------------------- -------------------- ----------------------
-  Investment              -XXX                              
-  Maintenance             -XXX                 -XXX                  -XXX
-  Operating Cost          -XXX                 -XXX                  -XXX
-  Revenue                  XXX                 XXX          
-  Residual Value           XXX                 XXX          
-  **NPV**                **XXX**                            
+### **Table 1: NPV Calculation Summary** {#NPVtable}
 
-  : NPV Calculation Summary
-:::
+| **Item**          | **Present Value** | **Annual Amounts** | **Amount in Year X** |
+|------------------|------------------|--------------------|----------------------|
+| Investment       | -XXX             |                    |                      |
+| Maintenance      | -XXX             | -XXX               | -XXX                 |
+| Operating Cost   | -XXX             | -XXX               | -XXX                 |
+| Revenue         | XXX              | XXX                |                      |
+| Residual Value  | XXX              | XXX                |                      |
+| **NPV**          | **XXX**          |                    |                      |
+
+
 
 Improving availability
 ======================
@@ -119,7 +115,7 @@ Increasing MTBF
 Perform the same calculations as in Task 1, assuming an additional MTBF.
 Each **1% extra MTBF** increases the investment cost by **125,000 SEK**.
 Compute the **NPV for 10% extra MTBF** using the same table format
-(Table [1](#NPVtable){reference-type="ref" reference="NPVtable"}).
+(Table [1](#NPVtable)).
 
 **Tip:** A 10% increase in MTBF is modeled as a **$1/(1.10)$ reduction**
 in the failure rate.
