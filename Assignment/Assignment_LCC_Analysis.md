@@ -8,8 +8,8 @@ responsible for this production facility and should investigate how
 various factors affect your LCC.
 
 Tutorials for MATLAB and Python are available
-- [MATLAB Tutorial](./MATLAB/Maintenance_Cost_Analysis_MATLAB.md)  
-- [Python Tutorial](./Python/Maintenance_Cost_Analysis_Python.md) 
+- [MATLAB Tutorial](../MATLAB/Maintenance_Cost_Analysis_MATLAB.md)  
+- [Python Tutorial](../Python/Maintenance_Cost_Analysis_Python.md) 
 
 Include your code ass appendix to your report.
 
