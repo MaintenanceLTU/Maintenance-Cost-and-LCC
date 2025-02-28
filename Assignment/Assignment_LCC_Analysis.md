@@ -10,6 +10,7 @@ various factors affect your LCC.
 Tutorials for MATLAB and Python are available
 - [MATLAB Tutorial](./MATLAB/Maintenance_Cost_Analysis_MATLAB.md)  
 - [Python Tutorial](./Python/Maintenance_Cost_Analysis_Python.md) 
+
 Include your code ass appendix to your report.
 
 Availability and LCC calculations
@@ -91,9 +92,10 @@ Calculate the life cycle costs of the asset.
 
 ## Calculate Present Values and NPV  
 
-Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table 1**.
+Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table [1] (#NPVtable)**.
 
-### **Table 1: NPV Calculation Summary** {#NPVtable}
+### **Table 1: NPV Calculation Summary** 
+{#NPVtable}
 
 | **Item**          | **Present Value** | **Annual Amounts** | **Amount in Year X** |
 |------------------|------------------|--------------------|----------------------|
