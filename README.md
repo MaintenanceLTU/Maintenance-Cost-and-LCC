@@ -23,9 +23,13 @@ Each tutorial provides a structured implementation of maintenance cost calculati
 
 - Python users need **NumPy** and **Matplotlib** for calculations and plotting. 
 
-## Assignment
-An assignment with data is available in English and Swedish
-- [LCC Assignment](./Assignment/LCC_Analysis_of_a_Crushing_Plant.pdf)  
-- [Uppgift LCC](./Assignment/LCC_analys_av_en_krossanläggning.pdf)  
+## Assignment  
+An assignment with data is available in English and Swedish:  
+
+- [Assignment LCC Analysis of a Crushing Plant](./Assignment/Assignment_LCC_Analysis.md)  
+- [Uppgift LCC analys av en krossanläggning](./Assignment/Uppgift_LCC_analys.pdf)  
+
+The assignment is also available as a **PDF download** and in **LaTeX source format** under the `Assignment` folder.  
+
 
 
