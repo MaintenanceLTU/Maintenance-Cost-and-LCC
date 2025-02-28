@@ -47,7 +47,7 @@ Present the following variables in a table:
 
 -   Downtime
 
--   Available time
+-   Uptime
 
 -   Operational availability ($A_o$)
 
