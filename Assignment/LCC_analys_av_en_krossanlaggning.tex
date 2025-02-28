@@ -85,7 +85,7 @@ Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och ensta
         Driftkostnad & -XXX & -XXX &  \\
         Inkomst & XXX & XXX &  \\
         Restvärde & XXX &  &  XXX\\
-        \textbf{NPV} & \textbf{XXX} &  &  \\
+        \textbf{NNV} & \textbf{XXX} &  &  \\
         \bottomrule
     \end{tabular}
     \caption{Nuvärdersberäkning}
@@ -95,36 +95,44 @@ Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och ensta
 
 \section{Förbättrad tillgänglighet}
 \subsection{Ökad MTBF}
-Utför samma beräkningar som i Uppgift 1 men med en ökad MTBF. Varje \textbf{1\% extra MTBF} ökar investeringskostnaden med \textbf{125 000 SEK}. Beräkna \textbf{NPV för 10\% extra MTBF} och rapportera enligt samma tabellformat (Table~\ref{NPVtable}).
+Utför samma beräkningar som i Uppgift 1 men med möjlighete att investera i ökad MTBF. 
+\begin{itemize}
+    \item Varje 1\% extra MTBF ökar investeringskostnaden med \textbf{125 000 SEK}. 
+    \item Lägg till '\emph{PercentIncreasedMTBF}' och uppdatera antal fel och investeringskostnad.
+    \begin{itemize}
+        \item Tips: 10\% ökad MTBF kan implementeras som 1/(1.10) minskade antal fel.
+    \end{itemize}
+\end{itemize}
+Beräkna \textbf{NNV för 10\% ökad MTBF} och rapportera enligt samma tabellformat (Table~\ref{NPVtable}).
 
 \subsection{Förebyggande underhållsstopp}
-Inkludera \textbf{förebyggande underhållsstopp} i beräkningarna:
+Inkludera kortare \textbf{förebyggande underhållsstopp} i beräkningarna:
 \begin{itemize}
-    \item Varje FU-stopp varar \textbf{24 timmar}, kostar \textbf{140 000 SEK}, och minskar antalet fel med \textbf{5\%}.
-    \item Uppdatera felantal, FU-tid och underhållskostnader.
+    \item Varje kortare FU-stopp varar i \textbf{24 timmar}, kostar \textbf{140 000 SEK}, och minskar antalet fel med \textbf{5\%}.
+    \item Lägg till '\emph{NumberOfShortPM}' och uppdatera antal fel, FU-tid och underhållskostnader.    
 \end{itemize}
-Beräkna \textbf{NPV för 6 extra FU-stopp} och rapportera enligt samma tabellformat.
+Beräkna \textbf{NNV för 6 extra FU-stopp} och rapportera enligt samma tabellformat.
 
 \section{Optimering av underhåll}
-\subsection{Optimalt antal MTBF-ökningar}
-Plotta \textbf{NPV mot extra \% MTBF} i intervallet \textbf{0–100\%} i steg om \textbf{1\%}, med \textbf{6 extra FU-stopp}.
+\subsection{Optimalt antal \% MTBF-ökningar}
+Plotta \textbf{NNV mot ökad \% MTBF} i intervallet \textbf{0–100\%} i steg om \textbf{1\%}, med \textbf{6 extra FU-stopp}.
 
 \subsection{Optimalt antal FU-stopp}
-Plotta \textbf{NPV mot antal FU-stopp} i intervallet \textbf{0–24 stopp}, med \textbf{10\% extra MTBF}.
+Plotta \textbf{NNV mot antal FU-stopp} i intervallet \textbf{0–24 stopp}, med \textbf{10\% ökad MTBF}.
 
 \textbf{Rapport:} Presentera optimal lösning och grafer.
 
 \section{Känslighetsanalys}
-Genomför känslighetsanalys med \textbf{10\% extra MTBF och 6 extra FU-stopp}.
+Genomför känslighetsanalys med \textbf{10\% ökad MTBF och 6 extra FU-stopp}.
 
 \subsection{Minsta kvalitetsutbyte}
-Sätt anläggningseffektiviteten till 95\%. Vilket är det minsta kvalitetsutbytet för att få ett positivt NPV?
+Sätt anläggningseffektiviteten till 95\%. Vilket är det minsta kvalitetsutbytet för att få ett positivt NNV?
 
 \subsection{Lönsamhetsgräns}
-Sätt anläggningseffektiviteten till 95\% och kvaliteten till 95\%. Vid vilket makadampris blir NPV negativt?
+Sätt anläggningseffektiviteten till 95\% och kvaliteten till 95\%. Vid vilket makadampris blir NNV negativt?
 
 \subsection{Räntans påverkan}
-För ett makadampris på 85 SEK, vid vilken kalkylränta blir NPV $<0$? Behåll anläggningseffektiviteten på 95\% och kvaliteten på 95\%.
+För ett makadampris på 85 SEK, vid vilken kalkylränta blir NNV $<0$? Behåll anläggningseffektiviteten på 95\% och kvaliteten på 95\%.
 
 \textbf{Rapport:} Presentera resultat och grafer.
 

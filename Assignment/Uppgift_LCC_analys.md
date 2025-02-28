@@ -1,4 +1,4 @@
-Bakgrund {#bakgrund .unnumbered}
+Bakgrund
 ========
 
 I denna uppgift ska du genomföra en Life Cycle Cost (LCC)-analys av en
@@ -84,11 +84,14 @@ Beräkna livscykelkostnaderna för anläggningen.
 
 -   Investeringskostnad: **14 000 000 SEK**.
 
--   Restvärde: Investeringskostnaden minskar med **50% per år**.
+-   Restvärde: Investeringen minskar med **50% per år**.
 
-## Beräkna nuvärde och nettonuvärde 
+Beräkna nuvärde och nettonuvärde
+--------------------------------
 
-Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och enstaka värden (restvärde). Beräkna sedan nettonuvärdet NNV och rapportera enligt **Tabell [1](#NPVtable)**.
+Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och
+enstaka värden (restvärde). Beräkna sedan nettonuvärdet NNV och
+rapportera enligt **Tabell [1](#NPVtable)**.
 
 ### **Table 1: Nuvärdersberäkning** <a id="NPVtable"></a>
 
@@ -109,60 +112,72 @@ Förbättrad tillgänglighet
 Ökad MTBF
 ---------
 
-Utför samma beräkningar som i Uppgift 1 men med en ökad MTBF. Varje **1%
-extra MTBF** ökar investeringskostnaden med **125 000 SEK**. Beräkna
-**NPV för 10% extra MTBF** och rapportera enligt samma tabellformat (Tabell [1](#NPVtable)).
+Utför samma beräkningar som i Uppgift 1 men med möjlighete att investera
+i ökad MTBF.
+
+-   Varje 1% extra MTBF ökar investeringskostnaden med **125 000 SEK**.
+
+-   Lägg till '*PercentIncreasedMTBF*' och uppdatera antal fel och
+    investeringskostnad.
+
+    -   Tips: 10% ökad MTBF kan implementeras som 1/(1.10) minskade
+        antal fel.
+
+Beräkna **NNV för 10% ökad MTBF** och rapportera enligt samma
+tabellformat (Table [1](#NPVtable)).
 
 Förebyggande underhållsstopp
 ----------------------------
 
-Inkludera **förebyggande underhållsstopp** i beräkningarna:
+Inkludera kortare **förebyggande underhållsstopp** i beräkningarna:
 
--   Varje FU-stopp varar **24 timmar**, kostar **140 000 SEK**, och
-    minskar antalet fel med **5%**.
+-   Varje kortare FU-stopp varar i **24 timmar**, kostar **140 000
+    SEK**, och minskar antalet fel med **5%**.
 
--   Uppdatera felantal, FU-tid och underhållskostnader.
+-   Lägg till '*NumberOfShortPM*' och uppdatera antal fel, FU-tid och
+    underhållskostnader.
 
-Beräkna **NPV för 6 extra FU-stopp** och rapportera enligt samma tabellformat.
+Beräkna **NNV för 6 extra FU-stopp** och rapportera enligt samma
+tabellformat.
 
 Optimering av underhåll
 =======================
 
-Optimalt antal MTBF-ökningar
-----------------------------
+Optimalt antal % MTBF-ökningar
+------------------------------
 
-Plotta **NPV mot extra % MTBF** i intervallet **0--100%** i steg om
+Plotta **NNV mot ökad % MTBF** i intervallet **0--100%** i steg om
 **1%**, med **6 extra FU-stopp**.
 
 Optimalt antal FU-stopp
 -----------------------
 
-Plotta **NPV mot antal FU-stopp** i intervallet **0--24 stopp**, med
-**10% extra MTBF**.
+Plotta **NNV mot antal FU-stopp** i intervallet **0--24 stopp**, med
+**10% ökad MTBF**.
 
 **Rapport:** Presentera optimal lösning och grafer.
 
 Känslighetsanalys
 =================
 
-Genomför känslighetsanalys med **10% extra MTBF och 6 extra FU-stopp**.
+Genomför känslighetsanalys med **10% ökad MTBF och 6 extra FU-stopp**.
 
 Minsta kvalitetsutbyte
 ----------------------
 
 Sätt anläggningseffektiviteten till 95%. Vilket är det minsta
-kvalitetsutbytet för att få ett positivt NPV?
+kvalitetsutbytet för att få ett positivt NNV?
 
 Lönsamhetsgräns
 ---------------
 
 Sätt anläggningseffektiviteten till 95% och kvaliteten till 95%. Vid
-vilket makadampris blir NPV negativt?
+vilket makadampris blir NNV negativt?
 
 Räntans påverkan
 ----------------
 
-För ett makadampris på 85 SEK, vid vilken kalkylränta blir NPV $<0$?
+För ett makadampris på 85 SEK, vid vilken kalkylränta blir NNV $<0$?
 Behåll anläggningseffektiviteten på 95% och kvaliteten på 95%.
 
 **Rapport:** Presentera resultat och grafer.

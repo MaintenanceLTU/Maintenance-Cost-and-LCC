@@ -99,15 +99,22 @@ Calculate present values of annual costs (operation, maintenance, and income) an
 
 \section{Improving availability}
 \subsection{Increasing MTBF}
-Perform the same calculations as in Task 1, assuming an additional MTBF. Each \textbf{1\% extra MTBF} increases the investment cost by \textbf{125,000 SEK}. Compute the \textbf{NPV for 10\% extra MTBF} and report using the same table format (Table~\ref{NPVtable}).
+Perform the same calculations as in Task 1, but with the possibility to invest in increased reliability (additional MTBF). 
+\begin{itemize}
+    \item Each \textbf{1\% extra MTBF} increases the investment cost by \textbf{125,000 SEK}.     
+    \item Add 'PercentIncreasedMTBF' and update the number of failures and the investment cost.
+    \begin{itemize}
+        \item Tip: A 10\% increase in MTBF is modeled as a $1/(1.10)$ reduction in number of failures.
+    \end{itemize}
+\end{itemize}
+Compute the \textbf{NPV for 10\% extra MTBF} and report using the same table format (Table~\ref{NPVtable}).
 
-\textbf{Tip:} A 10\% increase in MTBF is modeled as a \textbf{$1/(1.10)$ reduction} in the failure rate.
 
 \subsection{Preventive Maintenance Stops}
 Perform the same calculations but include \textbf{preventive maintenance (PM) stops}:
 \begin{itemize}
     \item Each PM stop lasts \textbf{24 hours}, costs \textbf{140,000 SEK}, and reduces failures by \textbf{5\%}.
-    \item Update failure count, PM time, and maintenance costs.
+    \item Add 'NumberOfShortPM' and update failure count, PM time, and maintenance costs.
 \end{itemize}
 Compute NPV for\textbf{6 additional PM stops} and report using the same table format.
 

@@ -90,9 +90,12 @@ Calculate the life cycle costs of the asset.
 
     -   Investment reduces by **50% per year**.
 
-## Calculate Present Values and NPV  
+Net Present Value (NPV) Calculation
+-----------------------------------
 
-Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table [1](#NPVtable)**.
+Calculate present values of annual costs (operation, maintenance, and
+income) and single amounts (residual value). Then compute NPV and report
+using the table format in **Table [1](#NPVtable)**.
 
 ### **Table 1: NPV Calculation Summary** <a id="NPVtable"></a>
 
@@ -106,20 +109,26 @@ Calculate present values of annual costs (operation, maintenance, and income) an
 | **NPV**          | **XXX**          |                    |                      |
 
 
-
 Improving availability
 ======================
 
 Increasing MTBF
 ---------------
 
-Perform the same calculations as in Task 1, assuming an additional MTBF.
-Each **1% extra MTBF** increases the investment cost by **125,000 SEK**.
-Compute the **NPV for 10% extra MTBF** using the same table format
-(Table [1](#NPVtable)).
+Perform the same calculations as in Task 1, but with the possibility to
+invest in increased reliability (additional MTBF).
 
-**Tip:** A 10% increase in MTBF is modeled as a **$1/(1.10)$ reduction**
-in the failure rate.
+-   Each **1% extra MTBF** increases the investment cost by **125,000
+    SEK**.
+
+-   Add 'PercentIncreasedMTBF' and update the number of failures and the
+    investment cost.
+
+    -   Tip: A 10% increase in MTBF is modeled as a $1/(1.10)$ reduction
+        in number of failures.
+
+Compute the **NPV for 10% extra MTBF** and report using the same table
+format (Table [1](#NPVtable)).
 
 Preventive Maintenance Stops
 ----------------------------
@@ -130,7 +139,8 @@ stops**:
 -   Each PM stop lasts **24 hours**, costs **140,000 SEK**, and reduces
     failures by **5%**.
 
--   Update failure count, PM time, and maintenance costs.
+-   Add 'NumberOfShortPM' and update failure count, PM time, and
+    maintenance costs.
 
 Compute NPV for**6 additional PM stops** and report using the same table
 format.
@@ -165,7 +175,7 @@ Set plant efficiency to 95%. What is the minimum quality yield needed
 for a positive NPV?
 
 Break-even Price
---------------------
+----------------
 
 Set plant efficiency to 95% and quality to 95%. At what crushed stone
 price does NPV become negative?
