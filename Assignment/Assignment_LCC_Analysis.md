@@ -127,8 +127,7 @@ invest in increased reliability (additional MTBF).
     -   Tip: A 10% increase in MTBF is modeled as a $1/(1.10)$ reduction
         in number of failures.
 
-Compute the **NPV for 10% extra MTBF** and report using the same table
-format (Table [1](#NPVtable)).
+-   Compute the **NPV for 10% increased MTBF** and report using the same table format (Table [1](#NPVtable)).
 
 Preventive Maintenance Stops
 ----------------------------
@@ -142,8 +141,7 @@ stops**:
 -   Add 'NumberOfShortPM' and update failure count, PM time, and
     maintenance costs.
 
-Compute NPV for**6 additional PM stops** and report using the same table
-format.
+-   Compute NPV for**6 additional PM stops** and report using the same table format.
 
 Maintenance Optimization
 ========================
@@ -151,7 +149,7 @@ Maintenance Optimization
 Finding Optimal MTBF Increase
 -----------------------------
 
-Plot **NPV vs. extra % MTBF** for the range **0--100%**, in **1%
+Plot **NPV vs. increased % MTBF** for the range **0--100%**, in **1%
 steps**, using **6 extra PM stops**.
 
 Finding Optimal PM Stops
@@ -165,24 +163,24 @@ Plot **NPV vs. number of PM stops** in the range **0--24 stops**, using
 Sensitivity Analysis
 ====================
 
-Perform sensitivity analysis using **10% extra MTBF and 6 extra PM
+Perform sensitivity analysis using **10% increased MTBF and 6 additional short PM
 stops**.
 
 Minimum Quality Yield
 ---------------------
 
-Set plant efficiency to 95%. What is the minimum quality yield needed
+Set performance to 95%. What is the minimum quality yield needed
 for a positive NPV?
 
 Break-even Price
 ----------------
 
-Set plant efficiency to 95% and quality to 95%. At what crushed stone
+Set performance to 95% and quality to 95%. At what crushed stone
 price does NPV become negative?
 
 Interest Rate Sensitivity
 -------------------------
 
-For a **stone price of 85 SEK**, what discount rate causes NPV $<0$?
+For a **stone price of 85 SEK**, what discount rate causes NPV $<0$? Keep performance and quality at 95%.
 
 **Report:** Present results and graphs.

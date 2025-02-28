@@ -123,8 +123,7 @@ i ökad MTBF.
     -   Tips: 10% ökad MTBF kan implementeras som 1/(1.10) minskade
         antal fel.
 
-Beräkna **NNV för 10% ökad MTBF** och rapportera enligt samma
-tabellformat (Table [1](#NPVtable)).
+-   Beräkna **NNV för 10% ökad MTBF** och rapportera enligt samma tabellformat (Table [1](#NPVtable)).
 
 Förebyggande underhållsstopp
 ----------------------------
@@ -137,8 +136,7 @@ Inkludera kortare **förebyggande underhållsstopp** i beräkningarna:
 -   Lägg till '*NumberOfShortPM*' och uppdatera antal fel, FU-tid och
     underhållskostnader.
 
-Beräkna **NNV för 6 extra FU-stopp** och rapportera enligt samma
-tabellformat.
+-   Beräkna **NNV för 6 extra FU-stopp** och rapportera enligt samma tabellformat.
 
 Optimering av underhåll
 =======================
