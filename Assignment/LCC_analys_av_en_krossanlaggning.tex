@@ -71,9 +71,31 @@ Beräkna livscykelkostnaderna för anläggningen.
     \item Restvärde: Investeringen minskar med \textbf{50\% per år}.
 \end{itemize}
 
+\subsection{Beräkna nuvärde och nettonuvärde}
+Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och enstaka värden (restvärde). Beräkna sedan nettonuvärdet NNV och rapportera enligt tabell~\ref{NPVtable}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        \textbf{Post} & \textbf{Nuvärde} & \textbf{Årligt belopp} & \textbf{Belopp år X} \\
+        \midrule
+        Investeringskostnad & -XXX &  &  \\
+        Underhållskostnad & -XXX & -XXX &  \\
+        Driftkostnad & -XXX & -XXX &  \\
+        Inkomst & XXX & XXX &  \\
+        Restvärde & XXX &  &  XXX\\
+        \textbf{NPV} & \textbf{XXX} &  &  \\
+        \bottomrule
+    \end{tabular}
+    \caption{Nuvärdersberäkning}
+    \label{NPVtable}
+\end{table}
+
+
 \section{Förbättrad tillgänglighet}
 \subsection{Ökad MTBF}
-Utför samma beräkningar som i Uppgift 1 men med en ökad MTBF. Varje \textbf{1\% extra MTBF} ökar investeringskostnaden med \textbf{125 000 SEK}. Beräkna \textbf{NPV för 10\% extra MTBF} och använd samma tabellformat.
+Utför samma beräkningar som i Uppgift 1 men med en ökad MTBF. Varje \textbf{1\% extra MTBF} ökar investeringskostnaden med \textbf{125 000 SEK}. Beräkna \textbf{NPV för 10\% extra MTBF} och rapportera enligt samma tabellformat (Table~\ref{NPVtable}).
 
 \subsection{Förebyggande underhållsstopp}
 Inkludera \textbf{förebyggande underhållsstopp} i beräkningarna:
@@ -81,7 +103,7 @@ Inkludera \textbf{förebyggande underhållsstopp} i beräkningarna:
     \item Varje FU-stopp varar \textbf{24 timmar}, kostar \textbf{140 000 SEK}, och minskar antalet fel med \textbf{5\%}.
     \item Uppdatera felantal, FU-tid och underhållskostnader.
 \end{itemize}
-Beräkna \textbf{NPV för 6 extra FU-stopp} och använd samma tabellformat.
+Beräkna \textbf{NPV för 6 extra FU-stopp} och rapportera enligt samma tabellformat.
 
 \section{Optimering av underhåll}
 \subsection{Optimalt antal MTBF-ökningar}

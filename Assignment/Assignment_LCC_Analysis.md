@@ -98,11 +98,11 @@ Calculate present values of annual costs (operation, maintenance, and income) an
 
 | **Item**          | **Present Value** | **Annual Amounts** | **Amount in Year X** |
 |------------------|------------------|--------------------|----------------------|
-| Investment       | -XXX             |                    |                      |
-| Maintenance      | -XXX             | -XXX               | -XXX                 |
-| Operating Cost   | -XXX             | -XXX               | -XXX                 |
-| Revenue         | XXX              | XXX                |                      |
-| Residual Value  | XXX              | XXX                |                      |
+| Investment Cost  | -XXX             |                    |                      |
+| Maintenance Cost | -XXX             | -XXX               |                      |
+| Operating Cost   | -XXX             | -XXX               |                     |
+| Income          | XXX              | XXX                |                      |
+| Residual Value  | XXX              |                    |  XXX                 |
 | **NPV**          | **XXX**          |                    |                      |
 
 

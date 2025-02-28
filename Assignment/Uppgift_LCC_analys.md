@@ -7,9 +7,10 @@ sikt anpassad för önskad kornstorlek. Du är ansvarig för denna
 produktionsanläggning och ska undersöka hur olika faktorer påverkar din
 LCC.
 
-Handledningar för MATLAB och Python finns tillgängliga, besök:
-[MaintenanceLTU GitHub
-Repository](https://github.com/MaintenanceLTU/D0002B/tree/main/Maintenance%20Cost%20and%20LCC).
+Handledningar för MATLAB och Python finns tillgängliga:
+- [MATLAB Tutorial](../MATLAB/Maintenance_Cost_Analysis_MATLAB.md)  
+- [Python Tutorial](../Python/Maintenance_Cost_Analysis_Python.md) 
+
 Inkludera din kod som bilaga i rapporten.
 
 Tillgänglighet och LCC-beräkningar
@@ -83,7 +84,24 @@ Beräkna livscykelkostnaderna för anläggningen.
 
 -   Investeringskostnad: **14 000 000 SEK**.
 
--   Restvärde: Investeringen minskar med **50% per år**.
+-   Restvärde: Investeringskostnaden minskar med **50% per år**.
+
+## Beräkna nuvärde och nettonuvärde 
+
+Beräkna nuvärde av årliga kostnader (drift, underhåll och inkomst) och enstaka värden (restvärde). Beräkna sedan nettonuvärdet NNV och rapportera enligt **Tabell [1](#NPVtable)**.
+
+### **Table 1: Nuvärdersberäkning** <a id="NPVtable"></a>
+
+| **Post**         | **Nuvärde**      | **Årligt belopp**  | **Belopp år X**      |
+|------------------|------------------|--------------------|----------------------|
+| Investeringskostnad | -XXX             |                    |                   |
+| Underhållskostnad   | -XXX             | -XXX               |                   |
+| Driftkostnad     | -XXX             | -XXX               |                      |
+| Inkomst          | XXX              | XXX                |                      |
+| Restvärde        | XXX              |                    |  XXX                 |
+| **NNV**          | **XXX**          |                    |                      |
+
+
 
 Förbättrad tillgänglighet
 =========================
@@ -93,7 +111,7 @@ Förbättrad tillgänglighet
 
 Utför samma beräkningar som i Uppgift 1 men med en ökad MTBF. Varje **1%
 extra MTBF** ökar investeringskostnaden med **125 000 SEK**. Beräkna
-**NPV för 10% extra MTBF** och använd samma tabellformat.
+**NPV för 10% extra MTBF** och rapportera enligt samma tabellformat (Tabell [1](#NPVtable)).
 
 Förebyggande underhållsstopp
 ----------------------------
@@ -105,7 +123,7 @@ Inkludera **förebyggande underhållsstopp** i beräkningarna:
 
 -   Uppdatera felantal, FU-tid och underhållskostnader.
 
-Beräkna **NPV för 6 extra FU-stopp** och använd samma tabellformat.
+Beräkna **NPV för 6 extra FU-stopp** och rapportera enligt samma tabellformat.
 
 Optimering av underhåll
 =======================
