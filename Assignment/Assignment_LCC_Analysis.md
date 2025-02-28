@@ -92,10 +92,9 @@ Calculate the life cycle costs of the asset.
 
 ## Calculate Present Values and NPV  
 
-Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table [1] (#NPVtable)**.
+Calculate present values of annual costs (operation, maintenance, and income) and single amounts (residual value). Then compute NPV and report using the table format in **Table [1](#NPVtable)**.
 
-### **Table 1: NPV Calculation Summary** 
-{#NPVtable}
+### **Table 1: NPV Calculation Summary** #NPVtable
 
 | **Item**          | **Present Value** | **Annual Amounts** | **Amount in Year X** |
 |------------------|------------------|--------------------|----------------------|
