@@ -164,7 +164,7 @@ Minimum Quality Yield
 Set plant efficiency to 95%. What is the minimum quality yield needed
 for a positive NPV?
 
-(b) Break-even Price
+Break-even Price
 --------------------
 
 Set plant efficiency to 95% and quality to 95%. At what crushed stone
